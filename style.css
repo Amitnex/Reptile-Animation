@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0d1117;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+
+  h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4FDF4F;
+    z-index: 10;
+    user-select: none;
+  }
+
+  #playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #3FBF3F;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+
+  #playBtn:hover {
+    background-color: #2F9F2F;
+  }
+
+  canvas {
+    display: block;
+  }
